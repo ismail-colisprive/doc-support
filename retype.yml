@@ -1,0 +1,11 @@
+input: .
+output: .retype
+url: # Add your website address here
+branding:
+  title: Support documentation
+  label: 1.0.0
+links:
+- text: Introduction
+  link: https://retype.com/guides/getting-started/
+footer:
+  copyright: "&copy; Colis Prive {{ year }}. All rights reserved."

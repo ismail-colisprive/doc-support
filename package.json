@@ -1,0 +1,21 @@
+{
+  "name": "doc-support",
+  "version": "1.0.0",
+  "description": "Documentation for support",
+  "main": "index.js",
+  "scripts": {
+    "start": "retype start",
+    "version-major": "",
+    "version-minor": "",
+    "version-patch": ""
+  },
+  "keywords": [
+    "DOC",
+    "SUPPORT"
+  ],
+  "author": "Colis Prive",
+  "license": "ISC",
+  "dependencies": {
+    "retypeapp": "3.5.0"
+  }
+}

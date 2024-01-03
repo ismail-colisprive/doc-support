@@ -1,0 +1,9 @@
+icon: home
+expanded: true
+expanded: true
+label: Introduction
+authors:
+  - name: Colis Prive
+    email: contact@colisprive.com
+    link: https://colisprive.com
+description: This is a description for this page
