@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.757613822615">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.757673517044">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.757613822615" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.757673517044" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.757613822615" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.757673517044" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.757613822615" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.757673517044" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -227,6 +227,30 @@ Les onglets <strong>Preview</strong> et <strong>Response</strong> on aura la ré
 <figure class="content-center">
     <img src="../../img/request-sended.png" alt="Figure 08 - ">
     <figcaption class="caption">Figure 08 - </figcaption>
+</figure>
+</p>
+<doc-anchor-target id="comment-récupérer-les-bonnes-informations">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#comment-récupérer-les-bonnes-informations">#</doc-anchor-trigger>
+        <span>Comment récupérer les bonnes informations</span>
+    </h2>
+</doc-anchor-target>
+<p>La première partie de l&#x27;en-tête de la requête est la plus importante car elle contient l&#x27;URL du Web Service appelé, le statut de la réponse</p>
+<p><figure class="content-center">
+    <img src="../../img/header-request.png" alt="Figure 09 - ">
+    <figcaption class="caption">Figure 09 - </figcaption>
+</figure>
+</p>
+<p>Pour transmettre les informations au L3 récupérer l&#x27;URL du Web Service et le statut de la réponse, ensuite vous devez aussi envoyer les paramètres envoyés dans le corps de la requête. Pour cela rendez-vous sur l&#x27;onglet <strong>Payload</strong> et vous trouverez les infos dans cette section s&#x27;il y&#x27;en a. <em>Le coprs n&#x27;est pas toujours envoyé avec la requête</em></p>
+<p><figure class="content-center">
+    <img src="../../img/body-request.png" alt="Figure 10 - ">
+    <figcaption class="caption">Figure 10 - </figcaption>
+</figure>
+</p>
+<p>Pour copier le coprs de la requête faite un clic droit dessus puis <strong>Copier l&#x27;objet</strong> comme le montre la <em>Figure 11</em></p>
+<p><figure class="content-center">
+    <img src="../../img/copy-object.gif" alt="Figure 11 - ">
+    <figcaption class="caption">Figure 11 - </figcaption>
 </figure>
 </p>
 
